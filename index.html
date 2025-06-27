@@ -18,23 +18,34 @@
         <span class="result"></span>
       </div>
       <div class="conteiner-symbols">
-        <button class="itemSymbol" type="button">0</button>
-        <button class="itemSymbol" type="button">1</button>
-        <button class="itemSymbol" type="button">2</button>
-        <button class="itemSymbol" type="button">3</button>
-        <button class="itemSymbol" type="button">4</button>
-        <button class="itemSymbol" type="button">5</button>
-        <button class="itemSymbol" type="button">6</button>
-        <button class="itemSymbol" type="button">7</button>
-        <button class="itemSymbol" type="button">8</button>
-        <button class="itemSymbol" type="button">9</button>
-        <button class="itemSymbol" type="button">-</button>
-        <button class="itemSymbol" type="button">+</button>
-        <button class="itemSymbol" type="button">/</button>
-        <button class="itemSymbol" type="button">=</button>
-        <button class="itemSymbol" type="button">C</button>
+        <button class="item-symbol" type="button">0</button>
+        <button class="item-symbol" type="button">1</button>
+        <button class="item-symbol" type="button">2</button>
+        <button class="item-symbol" type="button">3</button>
+        <button class="item-symbol" type="button">4</button>
+        <button class="item-symbol" type="button">5</button>
+        <button class="item-symbol" type="button">6</button>
+        <button class="item-symbol" type="button">7</button>
+        <button class="item-symbol" type="button">8</button>
+        <button class="item-symbol" type="button">9</button>
+        <button class="item-symbol" type="button">-</button>
+        <button class="item-symbol" type="button">+</button>
+        <button class="item-symbol" type="button">/</button>
+        <button class="item-symbol" type="button">=</button>
+        <button class="item-symbol" type="button">C</button>
       </div>
     </div>
+
+    <div id="password-check">
+      <div>
+        <label>Перевiрка пароля: </label>
+        <input class="pass-input" type="text" placeholder="Введи пароль" />
+      </div>
+      <p class="error-text"></p>
+      <p class="successful-text"></p>
+      <button class="pass-btn" type="submit">Перевiрка</button>
+    </div>
     <script src="./src/components/calculate/calculate.js"></script>
+    <script src="./src/components/passwordCheck/passwordCheck.js"></script>
   </body>
 </html>

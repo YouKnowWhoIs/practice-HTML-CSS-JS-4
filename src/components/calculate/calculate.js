@@ -1,7 +1,7 @@
 function calculate() {
   const input = document.querySelector(".input");
   const result = document.querySelector(".result");
-  const itemSymbol = document.querySelectorAll(".itemSymbol");
+  const itemSymbol = document.querySelectorAll(".item-symbol");
 
   input.setAttribute("readonly", true);
 
