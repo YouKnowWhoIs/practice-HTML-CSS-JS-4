@@ -1,5 +1,6 @@
 @import "./calculate/calculate.css";
 @import "./passwordCheck/passwordCheck.css";
+@import "./counter/counter.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -1,0 +1,52 @@
+#counter {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.conteiner-counter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn-minus,
+.btn-plus {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 7px;
+  border: 3px solid #9d9d9d;
+  transition: all 0.3s ease;
+}
+
+.btn-minus {
+  background-color: rgb(199, 99, 99);
+}
+.btn-minus:hover {
+  background-color: rgb(120, 48, 48);
+}
+
+.btn-plus {
+  background-color: rgb(86, 179, 86);
+}
+.btn-plus:hover {
+  background-color: rgb(49, 101, 49);
+}
+
+.number {
+  font-size: 30px;
+}
+
+.reset {
+  padding: 5px 15px;
+  font-size: larger;
+  border: 3px solid #9d9d9d;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+}
+.reset:hover {
+  background-color: #3c3c3c;
+}
