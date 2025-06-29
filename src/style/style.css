@@ -2,6 +2,7 @@
 @import "./passwordCheck/passwordCheck.css";
 @import "./counter/counter.css";
 @import "./itemList/itemList.css";
+@import "./emailVolidator/emailVolidator.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
