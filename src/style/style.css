@@ -3,6 +3,7 @@
 @import "./counter/counter.css";
 @import "./itemList/itemList.css";
 @import "./emailVolidator/emailVolidator.css";
+@import "./date/date.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
