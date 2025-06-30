@@ -1,0 +1,29 @@
+#body-color {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn-change,
+.btn-change-reset {
+  padding: 10px 15px;
+  font-size: large;
+  border: 3px solid #9d9d9d;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+}
+.btn-change:hover,
+.btn-change-reset:hover {
+  background-color: #3b3b3b;
+}
+
+.btn-change-reset {
+  visibility: hidden;
+}
+
+.color-name {
+  font-size: large;
+  display: none;
+}

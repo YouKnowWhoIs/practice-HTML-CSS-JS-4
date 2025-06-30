@@ -4,8 +4,9 @@
 @import "./itemList/itemList.css";
 @import "./emailVolidator/emailVolidator.css";
 @import "./date/date.css";
+@import "./bodyColor/bodyColor.css";
 
-:root {
+body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
